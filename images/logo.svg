@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="150" viewBox="0 0 700 150">
+  <!-- Capsule Background -->
+  <rect x="0" y="0" width="700" height="150" rx="75" fill="black" />
+  
+  <!-- Text -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" 
+        font-family="Inter, Arial, sans-serif" font-weight="bold" font-size="70">
+    Vertical Robotics
+  </text>
+</svg>
