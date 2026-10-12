@@ -1,0 +1,6 @@
+# local working copies, never published
+*_old.*
+
+# local tooling
+.claude/
+.DS_Store

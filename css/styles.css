@@ -3861,6 +3861,34 @@ img.u-pull-left {
 }
 
 /* --------------------------------------------------------------------
+ * ## vision statement
+ * -------------------------------------------------------------------- */
+.s-about__vision {
+    margin-top: calc(0 * var(--space));
+}
+
+.s-about__statement {
+    margin-top: var(--vspace-1);
+}
+
+.s-about__statement p {
+    font-size: var(--text-md);
+    line-height: var(--vspace-1_25);
+    color: var(--color-text);
+    margin-bottom: var(--vspace-0_75);
+}
+
+.s-about__statement p:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .s-about__statement p {
+        font-size: var(--text-size);
+    }
+}
+
+/* --------------------------------------------------------------------
  * ## features
  * -------------------------------------------------------------------- */
 .s-about__features {
@@ -4065,6 +4093,8 @@ img.u-pull-left {
         padding-top: var(--vspace-4);
     }
 }
+
+
 
 
 
